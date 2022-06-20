@@ -1,4 +1,4 @@
-# basicDEXArbBot
+# Basic DEX Arb Bot
 
 The bot takes routes (or generates routes from) the token and router addresses found in the config JSON file.
 
@@ -19,3 +19,7 @@ Ensure owner wallet has enough native token for gas.
 Getting frontrun is an issue, I suggest using less popular chains to do this on.
 
 It doesn't scale well at all.
+
+# Thanks
+
+Thanks to James Bachini for his tutorial and guidance on this subject.
