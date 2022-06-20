@@ -24,7 +24,7 @@ let profitFound = 0; //intitiate at 0
 
 let goodCount = 0;
 
-let config = require('./../config/fuse.json'); //good routes as well as all available route information stored in the config file
+let config = require('./../config/harmonyConfig.json'); //good routes as well as all available route information stored in the config file
 
 let defaultSize = new BigNumber(1000000000000000000); //default 1 * 10^18 = 1 WFUSE
 
