@@ -1,12 +1,12 @@
 const fs = require("fs");
 var Web3 = require('web3');
 var Contract = require('web3-eth-contract');
-const web3 = new Web3("https://rpc.fuse.io"); //RPC of chain you are using
+const web3 = new Web3("https://rpc.harmony.io"); //RPC of chain you are using
 const BigNumber = require('bignumber.js');
 
 var address = "ADDRESS OF DEPLOYED ARB CONTRACT"; //Modified Arb smart contract address
 
-var abi = require('./../config/abiFUSE.json'); //ABI of deployed contract
+var abi = require('./../config/ABIexample.json'); //ABI of deployed contract
 
 var privateKey = "OWNER WALLET PRIVATE KEY HERE"; // privateKey of arb contract OWNER wallet
 
